@@ -33,16 +33,19 @@ void input()
 		{
 			q1[ind[0]]=m;
 			++ind[0];
+			sleep(10);
 		}
 		else if(m.pty>=6&&m.pty<=12)
 		{
 			q2[ind[1]]=m;
 			++ind[1];
+			sleep(10);
 		}
 		else
 		{
 			q3[ind[2]]=m;
 			++ind[2];
+			sleep(10);
 		}
 	}
 	
